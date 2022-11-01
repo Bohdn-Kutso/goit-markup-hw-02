@@ -1,0 +1,16 @@
+:root {
+    --font-ral: "Raleway", sans-serif;
+    --color-gray: #303030;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.header-nav header-link.current {
+    color: var(--accent-text-color);
+}
