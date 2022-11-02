@@ -1,7 +1,7 @@
-:root {
+/* :root {
     --font-ral: "Raleway", sans-serif;
     --color-gray: #303030;
-}
+} */
 
 * {
     margin: 0;
@@ -16,12 +16,31 @@ body {
 ul {
     list-style: none;
 }
+/* main text #212121*/
+/* p #757575 */
+/* h1 #ffffff */
+/* accent blur #2196f3 
+    header bgc #ffffff
+    our team #f5f5fa
+    black footer #2f303a
+    tel&mail footer rgba
+    (255,255,255,0.6); */
 .page-header {
     background-color: #ffffff;
 }
 .header-nav header-link.current {
     color: var(--accent-text-color);
 }
-.site-nav-list {
+.site-nav-list .header-link {
     color: #212121;
+    text-decoration: none;
+}
+.logo {
+    text-decoration: none;
+}
+.mail-phone {
+   text-decoration: none; 
+}
+.address {
+    text-decoration: none;
 }
