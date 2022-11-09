@@ -8,8 +8,8 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-decoration: none;  
+  /* list-style: none;
+  text-decoration: none;   */
 
 }
  
@@ -34,6 +34,10 @@ body {
 
 .section-title {
   color: var(--title-col);
+}
+
+.site-nav .link.current {
+  color: var(--accent-col);
 }
 
 h1 {
